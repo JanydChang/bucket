@@ -2,7 +2,7 @@
     "homepage": "https://blog.csdn.net/vbcom/article/details/7245186",
     "description": "This is the offical blog & website for DirectX Repair",
     "version": "V3.9.0.29371",
-    "license": "Licence type: Free",
+    "license": "Free",
     "url": "http://down.crsky.com/software1/DirectXRepair_v3.9.zip",
     "bin": [
         "DirectX Repair V3.9 (Enhanced Edition)/DirectX_Repair_win8_win10.exe"
