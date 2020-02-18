@@ -13,6 +13,13 @@
     ],
     "extract_dir": [
     "trojan"
+    ],    
+    "post_install": [
+        "Remove-Item \"$dir\\`examples\" -Force -Recurse",
+        "Remove-Item \"$dir\\`CONTRIBUTORS.md\" -Force -Recurse",
+        "Remove-Item \"$dir\\`LICENSE\" -Force -Recurse",
+        "Remove-Item \"$dir\\`README.md\" -Force -Recurse",
+        "Remove-Item \"$dir\\`VC_redist.x64.exe\" -Force -Recurse"
     ],
     "checkver": "github",
     "autoupdate": {
