@@ -7,7 +7,7 @@
     "hash": "4598A00788CA68D3EF422DB26F1CA1ECD66F40A12704D9B42912AB41582FD6AC",
     "shortcuts": [
         [
-            "trojan.exe",
+            "trojan/trojan.exe",
             "trojan"
         ]
     ],
