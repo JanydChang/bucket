@@ -9,11 +9,11 @@
     "url": "http://yydl.duowan.com/4/setup/YYSetup-8.56.0.2-zh-CN.exe#/dl.7z",
     "shortcuts": [
         [
-            "InstallDir/YY.exe",
+            "YY.exe",
             "YY"
         ]
     ],
-    "post_install": [
-        "Remove-Item \"$dir\\`AppData\" -Force -Recurse"
+    "extract_dir": [
+    "InstallDir"
     ]
 }
