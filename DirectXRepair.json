@@ -14,6 +14,7 @@
         ]
     ],
     "post_install": [
-        "Remove-Item \"$dir\\`下载说明.htm\" -Force -Recurse"
+        "Remove-Item \"$dir\\`下载说明.htm\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`使用说明.txt\" -Force -Recurse",
     ]
 }
