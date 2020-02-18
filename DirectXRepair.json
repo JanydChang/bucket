@@ -15,5 +15,14 @@
     ],
     "extract_dir": [
     "DirectX Repair V3.9 (Enhanced Edition)"
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`DirectX Repair.exe\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`Settings.ini\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`使用说明.txt\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`常见问题解答.txt\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`更新日志.txt\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`技术文档.txt\" -Force -Recurse",
+        "Remove-Item \"$dir\\DirectX Repair V3.9 (Enhanced Edition)\\`致Windows XP用户.txt\" -Force -Recurse"
     ]
 }
