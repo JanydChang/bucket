@@ -4,7 +4,6 @@
     "version": "1.14.1",
     "license": "GPLv3",
     "url": "https://github.com/trojan-gfw/trojan/releases/download/v1.14.1/trojan-1.14.1-win.zip",
-    "hash": "4598A00788CA68D3EF422DB26F1CA1ECD66F40A12704D9B42912AB41582FD6AC",
     "shortcuts": [
         [
             "trojan.exe",
@@ -14,10 +13,5 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/trojan-gfw/trojan/releases/download/$version/trojan-$version-win.zip",
-        "hash": {
-            "url": "https://github.com/trojan-gfw/trojan/releases/download/$version/sha256sum",
-            "mode": "extract",
-            "regex": "7z: $sha256"
-        }
     }
 }
