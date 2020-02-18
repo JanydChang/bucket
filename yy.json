@@ -4,7 +4,7 @@
     "version": "nightly",
     "license": {
     "identifier": "EULA",
-    "url": "http://www.yy.com/web/pcyy_download/"},
+    "url": "http://yydl.duowan.com/4/setup/YYSetup-8.56.0.2-zh-CN.exe#/dl.7z",
     "shortcuts": [
         [
             "InstallDir/YY.exe",
@@ -13,6 +13,5 @@
     ],
     "post_install": [
         "Remove-Item \"$dir\\`AppData\" -Force -Recurse"
-    ],
-    "notes": "We don't persist your WeChat data, they are still storaged in '%APPDATA%\\Tencent\\WeChat'."
+    ]
 }
