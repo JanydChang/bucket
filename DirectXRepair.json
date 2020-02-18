@@ -3,14 +3,14 @@
     "description": "This is the offical blog & website for DirectX Repair",
     "version": "V3.9.0.29371",
     "license": "Free",
-    "url": "http://down.crsky.com/software1/DirectXRepair_v3.9.zip",
+    "url": "https://hkty-my.sharepoint.com/:u:/g/personal/iu1i9nmk_our_pp_ua/ETZx9dM8tjtBm33dZKv6TegBpSqvxKKT1OAjWB2MuBT7tA?e=wj1AxD",
     "bin": [
-        "DirectX Repair V3.9 (Enhanced Edition)/DirectX_Repair_win8_win10.exe"
+        "DirectX Repair V3.9 (Enhanced Edition)/DirectX_Repair.exe"
     ],    
 "shortcuts": [
 
         [
-            "DirectX Repair V3.9 (Enhanced Edition)/DirectX_Repair_win8_win10.exe",
+            "DirectX Repair V3.9 (Enhanced Edition)/DirectX_Repair.exe",
             "DirectXRepair"
         ]
     ]
