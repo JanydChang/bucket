@@ -29,5 +29,8 @@
             "mode": "extract",
             "regex": "7z: $sha256"
         }
-    }
+    },
+    "persist": [
+        "config.json"
+    ]
 }
