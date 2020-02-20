@@ -9,7 +9,7 @@
             "KeymouseGo"
         ]
     ], 
-    "persist": [
-        "script"
+    "persist_dir": [
+        "scripts"
     ]
 }
