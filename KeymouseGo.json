@@ -9,9 +9,6 @@
             "KeymouseGo"
         ]
     ], 
-    "checkver": "github",
-    "autoupdate": {           
-        "url": "https://github.com/taojy123/KeymouseGo/releases/download/$version/KeymouseGo_x64.exe",
     "persist_dir": [
         "script"
     ]
