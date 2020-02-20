@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/taojy123/KeymouseGo",
+    "description": "simulate mouse clicks and keyboard input",
+    "version": "v2.1",
+    "url": "https://github.com/taojy123/KeymouseGo/releases/download/v2.2/KeymouseGo_x64.exe",
+    "shortcuts": [
+        [
+            "KeymouseGo_x64.exe",
+            "KeymouseGo"
+        ]
+    ], 
+    "checkver": "github",
+    "autoupdate": {           
+        "url": "https://github.com/taojy123/KeymouseGo/releases/download/$version/KeymouseGo_x64.exe",
+    "persist_dir": [
+        "script"
+    ]
+}
