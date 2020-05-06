@@ -2,7 +2,7 @@
     "homepage": "https://tools.shuax.com/edge/",
     "description": "Microsoft Chromium Edge",
     "version": "Stable",
-    "url": "https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
+    "url": "https://api.shuax.com/v2/download/edge/stable/x64",
     "shortcuts": [
         [
             "Chrome-bin/msedge.exe",
@@ -10,6 +10,6 @@
         ]
     ],
     "extract_dir": [
-    "MSEDGE/Chrome-bin"
+    "MSEDGE.7z/Chrome-bin"
     ]
 }
