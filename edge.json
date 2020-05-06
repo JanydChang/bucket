@@ -4,13 +4,13 @@
     "homepage": "https://www.microsoft.com/en-us/edge/business/download",
     "architecture": {
         "64bit": {
-            "url": "http://go.microsoft.com/fwlink/?LinkID=2093437#/setup.msi_"
+            "url": "http://go.microsoft.com/fwlink/?LinkID=2093437#/setup.msi"
         }
     },
     "installer": {
-        "script": "Start-Process -Wait msiexec \"/i `\"$dir\\setup.msi_`\" /q\" -Verb RunAs"
+        "script": "Start-Process -Wait msiexec \"/i `\"$dir\\setup.msi`\" /q\" -Verb RunAs"
     },
     "uninstaller": {
-        "script": "Start-Process -Wait msiexec \"/x `\"$dir\\setup.msi_`\" /q\" -Verb RunAs"
+        "script": "Start-Process -Wait msiexec \"/x `\"$dir\\setup.msi`\" /q\" -Verb RunAs"
     }
 }
