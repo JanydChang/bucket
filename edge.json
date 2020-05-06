@@ -2,7 +2,6 @@
     "version": "stable",
     "description": "Web browser developed by Microsoft.",
     "homepage": "https://www.microsoft.com/en-us/edge/business/download",
-    "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://go.microsoft.com/fwlink/?LinkID=2093437#/setup.msi_"
