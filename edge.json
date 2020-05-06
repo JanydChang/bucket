@@ -10,7 +10,9 @@
         ]
     ],
     "extract_to": [
-        "",
-        "Plugins"
+        ""
+    ]
+    "extract_dir": [
+    "MSEDGE.7z/Chrome-bin"
     ]
 }
