@@ -1,15 +1,17 @@
 {
-    "homepage": "https://tools.shuax.com/edge/",
-    "description": "Microsoft Chromium Edge",
-    "version": "Stable",
-    "url": "https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
-    "shortcuts": [
-        [
-            "Chrome-bin/msedge.exe",
-            "Edge"
-        ]
-    ],
-    "extract_dir": [
-    "MSEDGE.7z/Chrome-bin"
-    ]
+    "version": "stable",
+    "description": "Web browser developed by Microsoft.",
+    "homepage": "https://www.microsoft.com/en-us/edge/business/download",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://go.microsoft.com/fwlink/?LinkID=2093437#/setup.msi_"
+        }
+    },
+    "installer": {
+        "script": "Start-Process -Wait msiexec \"/i `\"$dir\\setup.msi_`\" /q\" -Verb RunAs"
+    },
+    "uninstaller": {
+        "script": "Start-Process -Wait msiexec \"/x `\"$dir\\setup.msi_`\" /q\" -Verb RunAs"
+    }
 }
