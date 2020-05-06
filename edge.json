@@ -5,11 +5,14 @@
     "url": "https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
     "shortcuts": [
         [
-            "msedge.exe",
+            "Chrome-bin/msedge.exe",
             "Edge"
         ]
     ],
     "extract_dir": [
     "MSEDGE.7z/Chrome-bin"
+    ],
+    "extract_dir": [
+    "Chrome-bin"
     ]
 }
