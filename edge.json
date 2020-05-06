@@ -10,9 +10,6 @@
         ]
     ],
     "extract_dir": [
-    "MSEDGE.7z/Chrome-bin"
-    ],
-    "extract_dir": [
-    "Chrome-bin"
+    "MSEDGE/Chrome-bin"
     ]
 }
