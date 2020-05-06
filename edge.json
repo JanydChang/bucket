@@ -9,6 +9,9 @@
             "Edge"
         ]
     ],
+    "extract_to": [
+    "edge"
+    ]
     "extract_dir": [
     "MSEDGE.7z"
     ]
