@@ -8,9 +8,6 @@
             "Chrome-bin/msedge.exe",
             "Edge"
         ]
-    ],
-    "extract_to": [
-        ""
     ]
     "extract_dir": [
     "MSEDGE.7z/Chrome-bin"
